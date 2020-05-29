@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="ValidatingNavigation(failed)" parallel="none">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.NavigationBar">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.NavigationBar -->
+    </classes>
+  </test> <!-- ValidatingNavigation(failed) -->
+  <test name="ValidatingUser(failed)" parallel="none">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.NavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.NavigationBar -->
+    </classes>
+  </test> <!-- ValidatingUser(failed) -->
+  <test name="ValidatingTitles(failed)" parallel="none">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.NavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.NavigationBar -->
+    </classes>
+  </test> <!-- ValidatingTitles(failed) -->
+</suite> <!-- Failed suite [Suite] -->
